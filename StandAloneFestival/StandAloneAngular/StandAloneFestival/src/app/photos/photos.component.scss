@@ -1,0 +1,23 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .carousel {
+    width: 80%;
+    max-width: 800px;
+  }
+
+  .carousel-inner {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 3rem;
+  }
+}
