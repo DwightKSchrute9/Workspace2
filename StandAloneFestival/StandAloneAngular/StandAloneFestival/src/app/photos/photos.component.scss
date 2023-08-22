@@ -1,23 +1,16 @@
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 
-  .carousel {
-    width: 80%;
-    max-width: 800px;
-  }
 
-  .carousel-inner {
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 3rem;
+// Nel tuo file SCSS personalizzato
+
+.sectionPhoto {
+  background-color: rgb(58, 38, 42);
+  padding: 50px;
+  display: flex; // Utilizza flexbox per allineare le immagini
+  justify-content: space-between; // Spazio tra le immagini
+
+  .img-fluid {
+    width: calc(33.33% - 20px); // Larghezza delle immagini con spazi tra loro
+    height: auto;
   }
 }
