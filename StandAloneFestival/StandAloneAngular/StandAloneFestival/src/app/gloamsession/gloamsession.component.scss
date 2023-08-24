@@ -1,11 +1,19 @@
 .gloamSection{
   background-color: antiquewhite;
   padding: 30px;
+  background: linear-gradient(to bottom, #6c05a4, #000); /* Imposta il gradiente violaceo verso il nero */
+  padding: 2rem; /* Aggiungi uno spazio di padding per separare i video dallo sfondo */
+  color: white; /* Imposta il colore del testo */
 
 
 img{
   height: 90vh;
   width: 1500px;
+  border-radius: 10px;
+}
+
+.playlist{
+  background-color: aqua;
 }
 }
 .playlist-info {
@@ -27,4 +35,23 @@ img{
   border-bottom: none;
 }
 
+.playlist-info{
+  height: 80vh;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Colore di sfondo con opacità */
+  border-right: 1px solid #e9ecef;
+  backdrop-filter: blur(10px); /* Aggiungi l'effetto di sfocatura */
+  -webkit-backdrop-filter: blur(10px); /* Prefisso vendor per Webkit */
+
+  .imgAvatar{
+    border-radius: 20px;
+    width: 280px;
+    height: 180px;
+    padding: 10px;
+    margin: 30px;
+  }
+
+}
 
