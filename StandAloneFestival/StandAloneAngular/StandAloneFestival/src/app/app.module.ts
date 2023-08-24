@@ -9,6 +9,7 @@ import { PhotosComponent } from './photos/photos.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { GloamsessionComponent } from './gloamsession/gloamsession.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     PhotosComponent,
     AboutComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    GloamsessionComponent
   ],
   imports: [
     BrowserModule,

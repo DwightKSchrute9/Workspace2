@@ -1,0 +1,30 @@
+.gloamSection{
+  background-color: antiquewhite;
+  padding: 30px;
+
+
+img{
+  height: 90vh;
+  width: 1500px;
+}
+}
+.playlist-info {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-right: 1px solid #e9ecef;
+}
+
+.playlist-info h2 {
+  margin-top: 0;
+}
+
+.video-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.video-item:last-child {
+  border-bottom: none;
+}
+
+
