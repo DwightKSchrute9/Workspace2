@@ -20,6 +20,7 @@ img{
   padding: 2rem;
   background-color: #f8f9fa;
   border-right: 1px solid #e9ecef;
+
 }
 
 .playlist-info h2 {
@@ -29,6 +30,21 @@ img{
 .video-item {
   padding: 1rem;
   border-bottom: 1px solid #e9ecef;
+  display: flex;
+  h3{
+    margin: 10px;
+    padding: 5px;
+    color: #dccaca;
+    font-weight: bold;
+  }
+  h4 {
+    margin: 10px;
+    padding: 5px;
+    font-size:1rem;
+    padding-top: 50px;
+    color: #d1a2a2;
+
+  }
 }
 
 .video-item:last-child {
