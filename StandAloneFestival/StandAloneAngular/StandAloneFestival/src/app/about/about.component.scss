@@ -1,0 +1,23 @@
+.about-section {
+  background-color: grey; /* Colore di sfondo grigio */
+
+  .article {
+    background-color: rgba(0, 0, 0, 0.6); /* Colore di sfondo con trasparenza */
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    backdrop-filter: blur(8px); /* Effetto blur del colore di sfondo */
+    color: rgb(238, 208, 208);
+
+
+    blockquote {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    cite {
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+  }
+}
