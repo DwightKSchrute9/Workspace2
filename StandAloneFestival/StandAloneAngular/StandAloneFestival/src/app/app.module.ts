@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { GloamsessionComponent } from './gloamsession/gloamsession.component';
+import { AnimazioneComponent } from './animazione/animazione.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GloamsessionComponent } from './gloamsession/gloamsession.component';
     AboutComponent,
     FooterComponent,
     HomeComponent,
-    GloamsessionComponent
+    GloamsessionComponent,
+    AnimazioneComponent
   ],
   imports: [
     BrowserModule,

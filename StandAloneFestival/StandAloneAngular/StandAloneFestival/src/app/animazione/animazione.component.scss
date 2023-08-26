@@ -1,0 +1,21 @@
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+ // background-image: url(https://media4.giphy.com/media/VHMuWhPNHPrXgNvEkA/giphy.gif?cid=ecf05e47fu2h4xiwigx9wndfpq13oxmrto47atsbakpuwtgh&rid=giphy.gif&ct=g.gif);
+}
+
+.animation-iframe-container {
+  width: 100%;
+  padding-bottom: 178%; /* Rapporto di aspetto della GIF */
+  position: relative;
+}
+
+.animation-iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
