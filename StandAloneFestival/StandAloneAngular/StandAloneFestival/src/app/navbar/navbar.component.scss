@@ -3,18 +3,18 @@
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  
+
   height: 10vh;
   border-radius: 8px;
 
   .logo-container {
     display: inline-block;
     cursor: pointer;
-    transition: transform 0.5s ease; // Aggiungi la transizione qui
+    transition: transform 0.5s ease;
   }
 
   .logo:hover {
-    transform: rotate(360deg); // Aggiungi la rotazione al passaggio del mouse
+    transform: rotate(360deg); // Aggiunge la rotazione al passaggio del mouse
   }
 
   .nav-buttons {
@@ -30,7 +30,7 @@
       transition: color 0.3s;
 
       &:hover {
-        color: #ffc107; // Colore giallo chiaro
+        color: #ffc107;
       }
     }
   }

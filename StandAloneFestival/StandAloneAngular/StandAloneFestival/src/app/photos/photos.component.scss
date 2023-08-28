@@ -1,16 +1,13 @@
 
 
-
-// Nel tuo file SCSS personalizzato
-
 .sectionPhoto {
   background-color: rgb(58, 38, 42);
   padding: 50px;
-  display: flex; // Utilizza flexbox per allineare le immagini
-  justify-content: space-between; // Spazio tra le immagini
+  display: flex;
+  justify-content: space-between;
 
   .img-fluid {
-    width: calc(33.33% - 20px); // Larghezza delle immagini con spazi tra loro
+    width: calc(33.33% - 20px);
     height: auto;
   }
   .imgCentral{
